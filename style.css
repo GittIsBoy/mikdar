@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2em;
+  font-family: "Lora", serif;
+}
+/* nav */
+.mynavbar {
+  background-color: rgb(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+.mynavbar .navbar-toggler {
+  background-color: #b2533e;
+}
+.mynavbar .nav-link {
+  text-transform: uppercase;
+  color: #f4dfb6;
+  font-weight: bold;
+}
+.mynavbar .nav-link:hover {
+  text-transform: uppercase;
+  color: #e7ab9e;
+  font-weight: bold;
+}
+.mynavbar .offcanvas-title {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.mynavbar .offcanvas {
+  height: 100vh;
+  background-color: #b2533e;
+}
+
+/* her */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(img/bg2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.hero h1 {
+  color: #f4dfb6;
+  font-family: "Lora", serif;
+  font-size: 3.5rem;
+  text-shadow: 0 2px 2px rgb (0 0 0 / 0.5);
+}
+.hero a {
+  color: rgb(19, 18, 18);
+  background-color: #f9b572;
+  font: bold 15pt "Lora", serif;
+}
+.hero a:hover {
+  color: rgb(20, 20, 20);
+  background-color: #f4dfb6;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* services */
+.services h1 {
+  color: #f4dfb6;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.services h5 {
+  color: #f4dfb6;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.services p {
+  color: #f4dfb6;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services .abu {
+  filter: grayscale();
+}
+.services .btn {
+  background-color: #eabf7b;
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+.services .btn:hover {
+  background-color: #c38154;
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+}
+
+/* hair artis */
+.team-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  height: calc(100% - 38px);
+  transition: 0.5s;
+}
+
+.team-item img {
+  transition: 0.5s;
+}
+
+.team-item:hover img {
+  transform: scale(1.1);
+}
+
+.team-item:hover {
+  height: 100%;
+}
+
+.team-item .btn {
+  border-radius: 38px 38px 0 0;
+}
+
+/* location */
+.location {
+  background-color: #9a4444;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+}
+.location h1 {
+  color: #f4dfb6;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.location h6 {
+  color: #f4dfb6;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.location .list {
+  color: #f4dfb6 !important;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* footer */
+footer {
+  color: #fff;
+  font-family: "Open Sans";
+  background-color: #111;
+  color: #f4dfb6;
+}
+
+/* album */
+.album {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  color: #f4dfb6;
+}
+
+/* modal */
+.modal-body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.modal-footer .btn {
+  color: rgb(255, 255, 255);
+  background-color: #8c7e6f;
+  font: bold 15pt "Lora", serif;
+  border-color: rgb(255, 255, 255);
+}
+.modal-footer .btn:hover {
+  color: rgb(20, 20, 20);
+  background-color: #f4dfb6;
+  font: bold 15pt "Lora", serif;
+  border-color: rgb(255, 255, 255);
+}
+/* responsive */
+/* destokp */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .mynavbar .nav-link {
+    font-size: 1.5rem;
+  }
+  .services {
+    margin-top: -6rem;
+    padding-top: 6rem;
+  }
+  .team-item h5 {
+    font-size: 3rem;
+  }
+  .location .list {
+    font-size: 3.5rem;
+  }
+  .location .map {
+    width: 100%;
+  }
+  form {
+    font-size: 1.5rem;
+  }
+}
+/* ipon */
+@media (max-width: 562px) {
+  html {
+    font-size: 60%;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .mynavbar .nav-link {
+    font-size: 1.5rem;
+  }
+  .services {
+    margin-top: -6rem;
+    padding-top: 6rem;
+  }
+  .team-item h5 {
+    font-size: 2rem;
+  }
+  .location .list {
+    font-size: 4rem;
+  }
+  .location .map {
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+  form {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MIKDAR | It's Barbershop, It's Hair Salon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icon/logo.jpeg" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #1f1717">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-md bg-transparent fixed-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/icon/logo.jpeg"
+            alt="logo"
+            width="40"
+            height="30"
+          />
+        </a>
+        <button
+          class="navbar-toggler boder-0"
+          style="color: #b2533e"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MIKDAR</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto align-items-center">
+              <a class="nav-link" href="#home">HOME</a>
+              <a class="nav-link" href="#services">SERVICES</a>
+              <a class="nav-link" href="#location">LOCATION</a>
+              <a class="nav-link" href="album.html">ALBUM</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- hero -->
+    <section
+      id="home"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center overflow-x-hidden"
+    >
+      <main>
+        <img src="img/icon/logo.jpeg" alt="logo" width="25%" class="my-5" />
+        <h4 style="color: #f4dfb6">
+          MIKDAR | It's Barbershop, It's Hair Salon
+        </h4>
+        <h1>
+          Looking Your Best Never <br />
+          Goes Out of Style
+        </h1>
+        <p style="color: #f4dfb6">
+          OPEN <br />
+          Senin - Minggu <br />
+          09.00am - 09.00pm
+        </p>
+        <a href="#services" class="btn btn-lg mt-5">BOOK NOW </a>
+      </main>
+    </section>
+    <!-- services -->
+    <section id="services" class="services">
+      <div class="container text-center">
+        <div data-aos="fade-down">
+          <h1 class="text-center my-3 mt-5" style="color: #f4dfb6">
+            SERVICES & HAIR ARTIS
+          </h1>
+          <p class="text-center" style="color: #f4dfb6">
+            Silahkan pilih servis sesuai dengan yang diinginkan dan silahkan
+            pilih hair artis yang kalian pilih
+          </p>
+        </div>
+        <div class="container">
+          <div class="row align-items-start my-5">
+            <div class="col-md-4">
+              <div data-aos="fade-up" class="card mb-3 bg-dark">
+                <img src="img/cuting.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">HAIRCUT</h5>
+                  <p class="card-text">
+                    APAKAH ANDA MEMERLUKAN GAYA BARU KAMI SIAP MEMBANTU ANDA.
+                    STYLIST KAMI YANG BERPENGALAMAN SIAP MEMENUHI SEMUA
+                    KEBUTUHAN POTONG RAMBUT ANDA.
+                  </p>
+                  <p class="card-text">
+                    <small>Rp 15.000 - 20.000</small>
+                  </p>
+                  <div class="d-grid gap-2">
+                    <button
+                    type="button"
+                    class="btn btn-lg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    BOOK
+                  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div data-aos="fade-up" class="card mb-3 bg-dark">
+                <img src="img/perm.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">PERM</h5>
+                  <p class="card-text">
+                    KAMI MEMELLIKI PENGALAMAN DAPAT MERUBAH RAMBUT ANDA. PESAN
+                    STYLIST DAN KAMI AKAN MEMBANTU ANDA DALAM MERUBAH GAYA
+                    RAMBUT.
+                  </p>
+                  <br />
+                  <p class="card-text">
+                    <small>Rp 15.000 - 20.000</small>
+                  </p>
+                  <div class="d-grid gap-2">
+                    <button
+                    type="button"
+                    class="btn btn-lg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop2"
+                  >
+                    BOOK
+                  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div data-aos="fade-up" class="card mb-3 bg-dark abu">
+                <img src="img/coloring.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">COLORING</h5>
+                  <p class="card-text">
+                    BANYAK SEKALI CONSUMER KAMI MENGINGINKAN SERVICES COLORING.
+                    OLEH KARENA ITU KAMI AKAN MEMBUKA SERVICES COLORING, SUPAYA
+                    DAPAT MEMBERIKAN WARNA YANG ANDA INGINKAN.
+                  </p>
+                  <div class="d-grid gap-2">
+                    <button
+                    type="button"
+                    class="btn btn-lg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop4"
+                  >
+                    COMING SOON
+                  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hair artis -->
+    <div class="container">
+      <div class="row">
+        <div
+          data-aos="fade-up"
+          class="col-lg-3 col-md-6 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="team-item text-center rounded overflow-hidden bg-dark">
+            <div class="rounded-circle overflow-hidden m-4">
+              <img
+                class="img-fluid"
+                src="img/WhatsApp Image 2023-11-19 at 21.17.21.jpeg"
+                alt="artis1"
+              />
+            </div>
+            <h5 class="mb-1" style="color: #f4dfb6">Full Name</h5>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          class="col-lg-3 col-md-6 wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          <div class="team-item text-center rounded overflow-hidden bg-dark">
+            <div class="rounded-circle overflow-hidden m-4">
+              <img
+                class="img-fluid"
+                src="img/WhatsApp Image 2023-11-19 at 21.17.21.jpeg"
+                alt="artis1"
+              />
+            </div>
+            <h5 class="mb-1" style="color: #f4dfb6">Full Name</h5>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          class="col-lg-3 col-md-6 wow fadeInUp"
+          data-wow-delay="0.5s"
+        >
+          <div class="team-item text-center rounded overflow-hidden bg-dark">
+            <div class="rounded-circle overflow-hidden m-4">
+              <img
+                class="img-fluid"
+                src="img/WhatsApp Image 2023-11-19 at 21.17.21.jpeg"
+                alt="artis1"
+              />
+            </div>
+            <h5 class="mb-1" style="color: #f4dfb6">Full Name</h5>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          class="col-lg-3 col-md-6 wow fadeInUp"
+          data-wow-delay="0.7s"
+        >
+          <div class="team-item text-center rounded overflow-hidden bg-dark">
+            <div class="rounded-circle overflow-hidden m-4">
+              <img
+                class="img-fluid"
+                src="img/WhatsApp Image 2023-11-19 at 21.17.21.jpeg"
+                alt="artis1"
+              />
+            </div>
+            <h5 class="mb-1" style="color: #f4dfb6">Full Name</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- location -->
+    <section id="location" class="location">
+      <div class="container text-center">
+        <h1 class="text-center mb-3 pt-5"" style="color: #f4dfb6">ADDRESS</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 pt-5">
+                <div class="w-100">
+                    <ul class="list list-unstyled  fw-semibold fs-5 m-0 text-light text-start mx-3">
+                      <li>Padaherang, Kec. Padaherang</li>
+                      <li>Kab. Pangandaran, Jawa Barat</li>
+                      <li>Koramil 1318/Padaherang</li>
+                      <li><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376"/></svg>+62 85721543488</li>
+                      <li><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/></svg> mikdar.studio@gmail.com</li>
+                  </ul>
+                  <iframe class="map"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.263238049842!2d108.69139357460837!3d-7.546246374499709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e659be8e9fe1c79%3A0xf1a2d10c7244f162!2sMIKDAR%20BARBERSHOP!5e0!3m2!1sid!2sid!4v1700564019921!5m2!1sid!2sid"
+                      width="90%" height="400px" frameborder="0"
+                      style="border:0; margin-top: 12px" allowfullscreen="" aria-hidden="false"
+                      tabindex="0"></iframe>
+                  </div>
+            </div>
+            <div class="col-md-6 pt-5">
+                <div class="w-100 table">
+                    <h6 class="fw-bold  mb-3 text-center">OPENING HOURS</h6>
+                    <table class="table table-borderless fw-semibold fs-5">
+                      <thead>
+                        <tr style="display: none;">
+                          <th scope="col">days</th>
+                          <th scope="col" style="width: 10px;">open</th>
+                          <th scope="col" style="width: 10px;">-</th>
+                          <th scope="col" style="width: 10px;">close</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Monday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Tuesday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Wednesday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Thursday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Friday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Saturday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" style="width: 170px; padding: 0 0 13px o;">Sunday</th>
+                          <td style="padding:  0 0 13px o;">9am</td>
+                          <td style="padding:  0 0 13px o;">-</td>
+                          <td style="padding:  0 0 13px o;">9pm</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="footer-header-text mt-5">MIKDAR | BARBERSHOP</h2>
+                    <p class="mt-3 f-p">
+                        Jika ada yang ingin di tanyakan seputar Barbershop kami silahkan hubungi kami <br> dengan cara
+                        mengikuti social media kami, dont forget  to follow.
+                    </p>
+                    <ul style="list-style: none" >
+                        <li><a href="https://instagram.com/mikdarbarbershop?igshid=NzZlODBkYWE4Ng=="><i class="fa fa-instagram"><img src="img/icon/instagram.png" alt=""></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <main style="background: #000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center my-5">
+                    <p class="text-light fw-normal opacity-4 mb-0">Copyrights © 2023 All Rights
+                        Reserved by MIKDAR</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    </section>  
+
+        <!-- Modal haircut -->
+        <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-secondary">
+            <div class="modal-header">
+              <img
+                class="modal-title fs-5 img-responsive"
+                id="staticBackdropLabel"
+                src="img/icon/haircut2.png"
+                alt="logo"
+                width="20%"
+                class="my-5"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" style="font-family: 'Poppins', sans-serif">
+              <form class="needs-validation" novalidate id="book">
+                  <label for="service" class="form-label">Service</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="services"
+                    placeholder=""
+                    value="Hair Cut"
+                    readonly
+                  />
+                  <div class="my-2">
+                    <label for="nama" class="form-label">Nama</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nama"
+                    placeholder="enter your name"
+                    value=""
+                    required
+                  />
+                  </div>
+                <div class="my-2">
+                  <label for="hair" class="form-label">Hair Artis</label>
+                  <select
+                    name="Hair Artis"
+                    id="hair"
+                    class="form-select text-end"
+                  >
+                    <option value="Acumalaka">Acumalaka</option>
+                    <option value="Icikiwir">Icikiwir</option>
+                    <option value="Asolole">Asolole</option>
+                    <option value="Asolole">Asolole</option>
+                  </select>
+                </div>
+                <div class="my-2">
+                  <label for="hari" class="form-label">Hari</label>
+                  <select name="Hari" id="hari" class="form-select text-end">
+                    <option>Today</option>
+                    <option>Tomorrow</option>
+                  </select>
+                </div>
+                <div class="my-2 mb-2">
+                  <label for="jam" class="form-label">Jam</label>
+                  <select name="Jam" id="jam" class="form-select text-end">
+                    <option>9am</option>
+                    <option>10am</option>
+                    <option>2pm</option>
+                    <option>3pm</option>
+                    <option>4pm</option>
+                    <option>5pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" onclick="book()" class="btn mx-auto btn-lg">
+                BOOK
+              </button>
+              <div id="text-info"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal parm -->
+      <div
+        class="modal fade"
+        id="staticBackdrop2"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-secondary">
+            <div class="modal-header">
+              <img
+                class="modal-title fs-5 img-responsive"
+                id="staticBackdropLabel"
+                src="img/icon/perm2.png"
+                alt="logo"
+                width="20%"
+                class="my-5"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" style="font-family: 'Poppins', sans-serif">
+              <form class="needs-validation" novalidate id="book">
+                  <label for="service" class="form-label">Service</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="services"
+                    placeholder=""
+                    value="Perm"
+                    readonly
+                  />
+                  <div class="my-2">
+                    <label for="nama" class="form-label">Nama</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nama"
+                    placeholder="enter your name"
+                    value=""
+                    required
+                  />
+                  </div>
+                <div class="my-2">
+                  <label for="hair" class="form-label">Hair Artis</label>
+                  <select
+                    name="Hair Artis"
+                    id="hair"
+                    class="form-select text-end"
+                  >
+                    <option>Icikiwir</option>
+                    <option>Asolole</option>
+                    <option>Asolole</option>
+                  </select>
+                </div>
+                <div class="my-2">
+                  <label for="hari" class="form-label">Hari</label>
+                  <select name="Hari" id="hari" class="form-select text-end">
+                    <option>Today</option>
+                    <option>Tomorrow</option>
+                  </select>
+                </div>
+                <div class="my-2 mb-2">
+                  <label for="jam" class="form-label">Jam</label>
+                  <select name="Jam" id="jam" class="form-select text-end">
+                    <option>9am</option>
+                    <option>10am</option>
+                    <option>2pm</option>
+                    <option>3pm</option>
+                    <option>4pm</option>
+                    <option>5pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" onclick="book()" class="btn mx-auto btn-lg">
+                BOOK
+              </button>
+              <div id="text-info"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- modal color -->
+      <div
+        class="modal fade"
+        id="staticBackdrop4"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel4"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-secondary">
+            <div class="modal-header">
+              <img
+                class="modal-title fs-5 img-responsive"
+                id="staticBackdropLabel"
+                src="img/icon/coloring2.png"
+                alt="logo"
+                width="20%"
+                class="my-5"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" style="font-family: 'Poppins', sans-serif">
+              <div class="container text-center d-flex justify-content-center align-items-center">
+                <h2 class="my-5">SERVICES INI AKAN SEGERA TERSEDIA</h2>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
